@@ -1,0 +1,239 @@
+@font-face {
+    font-family: 'Satoshi-Regular';
+    src: url('../font/fonts/Satoshi-Regular.woff2') format('woff2'),
+         url('../font/fonts/Satoshi-Regular.woff') format('woff'),
+         url('../font/fonts/Satoshi-Regular.ttf') format('truetype');
+         font-weight: 400;
+         font-display: swap;
+         font-style: normal;
+  }
+
+@font-face {
+  font-family: 'Satoshi-Bold';
+  src: url('../font/fonts/Satoshi-Bold.woff2') format('woff2'),
+       url('../font/fonts/Satoshi-Bold.woff') format('woff'),
+       url('../font/fonts/Satoshi-Bold.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+.voiture{
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+}
+
+.Btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #5054E0;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+}
+
+.bandeauBleu{
+    display: flex;
+    justify-content: flex-start;
+    background: linear-gradient(179deg, #585CCA 0%, #96D9C8 130%);
+    min-width: 1300px;
+}
+
+.rechercheBarre{
+    position: relative;
+    display: flex;
+    height: 70px;
+    right: 35px;
+    top: 100px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+.rechercheBarre_select{
+    display: flex;
+    position: relative;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    color: #848488;
+}
+
+.rechecheBarre_select--villeDepart{
+    padding-left: 20px;
+    font-family: 'Satoshi-Regular';
+    font-size: 20px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url(../Images/marker-home.png);
+    background-repeat: no-repeat;
+    background-position: 130px, 0px, 0px, 0px;
+    background-size: 35px;
+    border-radius: 10px 0px 0px 10px;
+    width: 180px;
+}
+
+.rechercheBarre_select--villeDepart--option{
+    display: block;
+    position: relative;
+}
+
+.switchButton{
+    width: 65px;
+}
+
+.switchPicture{
+    height: 30px ;
+    -moz-transition: -webkit-transform .8s ease-in-out;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
+
+.rechercheBarre_select--villeArrivee{
+    padding-left: 20px;
+    font-family: 'Satoshi-Regular';
+    font-size: 20px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url("../Images/marker.png");
+    background-repeat: no-repeat;
+    background-position: 130px, 0px, 0px, 0px;
+    background-size: 35px;
+    width: 180px;
+}
+
+
+.rechercheBarre_input{
+    display: flex;
+    position: relative;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    color: #848488;
+}
+
+.rechercheBarre_input--calendrier{
+    font-family: 'Satoshi-Regular';
+    width: 160px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.rechercheBarre_input--number{
+    font-family: 'Satoshi-Regular';
+    background-image: url(../Images/portrait.png);
+    background-repeat: no-repeat;
+    background-size: 28px;
+    background-position: 41px, 0px, 0px, 0px;
+    border-radius: 0px 10px 10px 0px;
+    width: 60px;
+    font-size: 30px;
+    padding-left: 17px;
+}
+
+.rechercheBarre_input--number[type=number] ::-webkit-outer-spin-button, ::-webkit-inner-spin-button {
+    appearance: none;
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+}
+
+.filtreAndSubmitButton{
+    display: inline-flex;
+    position: relative;
+    top: 120px; 
+}
+
+.filtre{
+    display: block;
+}
+
+.prixLabel{
+    font-size: 20px;
+    font-family: 'Satoshi-Bold';
+    color: white;
+}
+
+.filtreButton{
+    align-items: center;
+    position: absolute;
+    font-size: 30px;
+    width: 75px;
+    display: flex;
+    border: none;
+}
+
+
+.button_change_prix{
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #5054E0;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+.button_change_prix:hover{
+    background-color: #8d90f0;
+}
+
+
+.prix{
+    text-align: center;
+    font-size: 30px;
+    border: none;
+    width: 80px;
+    height: 61px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+#decremente{
+    padding: 15px 5px 15px 25px;
+    border-radius: 45px 0 0 45px;
+}
+
+#incremente{
+    padding: 15px 25px 15px 5px;
+    border-radius: 0 45px 45px 0;
+}
+
+#btn_rechercher{
+    position: relative;
+    top: 35px;
+    left: 170px;
+}
+    
+.result{
+    font-family: 'Satoshi-Regular';
+    font-size: 30px;
+    color: rgb(76, 39, 223);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.recap{
+    font-family: 'Satoshi-Regular';
+    font-size: 30px;
+    color: white;
+}
+.recap div{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tabResult th, td {
+    border: 2px solid skyblue;
+    border-collapse: collapse;
+    padding: 3px 12px 3px 12px;
+    text-align: center;
+}
+
+#BtnConnex_Reserver{
+    position: relative;
+    display: flex;
+    left: 1085px;
+    bottom: 135px;
+    width: 250p;
+    font-size: 50px;
+}

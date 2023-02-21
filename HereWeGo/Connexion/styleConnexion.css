@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Satoshi-Regular';
+    src: url('../font/fonts/Satoshi-Regular.woff2') format('woff2'),
+         url('../font/fonts/Satoshi-Regular.woff') format('woff'),
+         url('../font/fonts/Satoshi-Regular.ttf') format('truetype');
+         font-weight: 400;
+         font-display: swap;
+         font-style: normal;
+  }
+
+@font-face {
+  font-family: 'Satoshi-Bold';
+  src: url('../font/fonts/Satoshi-Bold.woff2') format('woff2'),
+       url('../font/fonts/Satoshi-Bold.woff') format('woff'),
+       url('../font/fonts/Satoshi-Bold.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+.voiture{
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+}
+
+.bandeauBleu{
+    display: flex;
+    justify-content: flex-start;
+    background: rgb(183,200,215);
+    background: linear-gradient(179deg, #585CCA 0%, #96D9C8 130%);
+    min-width: 1300px;
+}
+
+.connection p{
+    margin: 5px;
+}
+.connection{
+    font-family: 'Satoshi-Regular';
+    font-size: 30px;
+    color: white;
+}
+
+.inputBoxConnexion{
+    border: none;
+    height: 25px;
+    border-radius: 25px;
+    width: 265px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+#Btn_SeConnecter{
+    position: relative;
+    left: 400px;
+}
+
+#Btn_Retour{
+    position: relative;
+    top: 55px;
+}
+
+.alert{
+    width: 457px;
+    color: #842029;
+    font-family: 'Satoshi-Regular';
+    font-size: 16px;
+    background-color: #F8D7DA;
+    margin: 0px 0px, 16px;
+    padding: 10px 5px 10px 5px;
+}
+

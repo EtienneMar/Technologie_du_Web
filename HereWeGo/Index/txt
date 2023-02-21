@@ -1,0 +1,4 @@
+<!-- 
+'SELECT t.villeDepart, t.villeArrivee, count(c.idTrajet) 
+FROM covoiturages c, trajets t 
+WHERE c.idTrajet=t.idTrajet GROUP BY t.idTrajet LIMIT 3'; -->

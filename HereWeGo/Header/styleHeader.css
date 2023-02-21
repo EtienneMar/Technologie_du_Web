@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Satoshi-Regular';
+    src: url('../font/fonts/Satoshi-Regular.woff2') format('woff2'),
+         url('../font/fonts/Satoshi-Regular.woff') format('woff'),
+         url('../font/fonts/Satoshi-Regular.ttf') format('truetype');
+         font-weight: 400;
+         font-display: swap;
+         font-style: normal;
+  }
+
+@font-face {
+  font-family: 'Satoshi-Bold';
+  src: url('../font/fonts/Satoshi-Bold.woff2') format('woff2'),
+       url('../font/fonts/Satoshi-Bold.woff') format('woff'),
+       url('../font/fonts/Satoshi-Bold.ttf') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 1000px;
+}
+.header_logo{
+    cursor: pointer;
+    display: flex;
+
+}
+/*logo HereWeGo style css*/
+.logo{
+    display: flex;
+    width: 80px;
+    height: 90px;
+}
+/* option des images */
+.header_option img{
+    width: 20px;
+    height: 20px;
+}
+header h1{
+    font-family: 'Satoshi-Bold';
+    font-size: 40px;
+    color: #5054E0;
+    padding-left: 30px;
+
+}
+
+.Btn{
+    font-family: 'Satoshi-Bold';
+    font-size: 24px;
+    color: #5054E0;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+}
+
+.Btn:hover{
+    font-size: 24px;
+    color: #1018ec;
+    font-weight: bold;
+    
+}
+
+.BtnConnex{
+    background-color: #5054E0;
+    font-family: 'Satoshi-Bold';
+    font-size: 24px;
+    border: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    margin-left: 20px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+}
+.BtnConnex:hover{
+    background-color: #8d90f0;
+}
+
+
